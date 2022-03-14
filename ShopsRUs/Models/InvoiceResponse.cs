@@ -16,5 +16,9 @@ namespace ShopsRUs.Models
         public string ItemsPurchased { get; set; }
 
         public DateTime DateCreated { get; set; }
+
+        public bool DiscountApplied { get; set; }
+
+        public string TypeOfDiscount { get; set; }
     }
 }
